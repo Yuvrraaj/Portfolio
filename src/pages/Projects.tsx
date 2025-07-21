@@ -26,74 +26,74 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Income Tax Fraud Detection",
-      description: "Developed a system to detect fraudulent activities in income tax filings using AI and machine learning techniques. Implemented data preprocessing, feature engineering, and model training.",
+      title: "Interpretable AI for Census-Independent Population Estimation leveraging space technology",
+      description: "Developed a deep learning pipeline to estimate population from satellite imagery by detecting buildings using YOLOv8 and incorporating elevation data (DSM & DTM) to infer floor counts. Achieved over 90% accuracy and built a GUI for real-time input and visualization.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
-      tags: ["Python", "Machine Learning", "AI"],
-      code: "https://github.com/oxBinaryBrain/An_Income_Tax_Fraud_Detection_Using_AI-ML",
+      tags: ["Python", "Machine Learning", "AI", "Deep Learning", "Satellite Imagery", "YOLOv8", "GUI", "Population Estimation"],
+      code: "https://github.com/Yuvrraaj/Population-Estimation",
       category: "ai"
     },
     {
       id: 2,
-      title: "Oral Cancer Classification using Neural Networks",
-      description: "Developing a machine learning model to detect and classify oral cancer levels from images. It involves data collection, preprocessing, feature extraction, and model evaluation.",
+      title: "OCR-Based Product Info Extractor",
+      description: "Built a standalone executable application that captures product images via webcam and extracts key information like MRP and manufacturing date using OCR and image processing, with 92%+ text recognition accuracy.",
       image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
-      tags: ["Python", "TensorFlow", "Neural Networks"],
-      code: "https://github.com/oxBinaryBrain/Oral_Cancer_Classification",
+      tags: ["Python", "OCR", "Image Processing", "OpenCV", "GUI", "Standalone Application", "Webcam", "Text Recognition", "Product Information"],
+      code: "https://github.com/Yuvrraaj/OCR-Text-Extraction",
       category: "ai"
     },
     {
       id: 3,
-      title: "Credit Card Fraud Detection",
-      description: "A simple machine learning model which analyzes whether a credit card transaction is fraudulent or not. The dataset is downloaded from Kaggle and processed for analysis.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
-      tags: ["Python", "Machine Learning", "Data Science"],
-      code: "https://github.com/oxBinaryBrain/CC-Fraud-Detection",
+      title: "Fruit Freshness Detection",
+      description: "Created a real-time webcam-based system that identifies fruits (banana, apple, orange, guava) and estimates freshness as a percentage using machine learning techniques, achieving ~90% classification accuracy.",
+      image: "public/uploads/fruits.jpg",
+      tags: ["Python", "Machine Learning", "Computer Vision", "OpenCV", "Real-time", "Webcam", "Fruit Detection", "Freshness Estimation"],
+      code: "https://github.com/Yuvrraaj/Freshness_Detection",
       category: "ai"
     },
     {
       id: 4,
-      title: "Contextualized Topic Modeling",
-      description: "A python package to run contextualized topic modeling. CTMs combine contextualized embeddings (e.g., BERT) with topic models to get coherent topics and document classification.",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
-      tags: ["Python", "NLP", "Machine Learning"],
-      code: "https://github.com/oxBinaryBrain/contextualized-topic-models",
-      category: "ai"
-    },
-    {
-      id: 5,
-      title: "E-commerce Platform",
-      description: "A full-stack e-commerce platform with user authentication, product catalog, and payment processing.",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80",
-      tags: ["JavaScript", "Node.js", "React", "MongoDB"],
-      code: "https://github.com/oxBinaryBrain/E-commerce",
-      category: "web"
-    },
-    {
-      id: 6,
       title: "Personal Portfolio",
       description: "A responsive personal portfolio website showcasing projects and skills.",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
-      tags: ["React", "Node", "HTML","CSS"],
+      tags: ["React", "Node", "HTML","CSS", "JavaScript", "Portfolio", "Web Development", "Frontend Development", "Responsive Design"],
       code: "https://github.com/oxBinaryBrain/Portfolio_V1",
       category: "web"
     },
     {
+      id: 5,
+      title: "Drag-and-Drop Form Builder",
+      description: "Developed a dynamic form builder using React, enabling users to create, customize, and share forms effortlessly. Integrated functionality to export form responses as a CSV file for streamlined data management. ",
+      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+      tags: ["React", "JavaScript", "Form Builder", "CSV Export", "Web Development", "Frontend Development", "UI/UX", "Drag and Drop"],
+      code: "https://github.com/Yuvrraaj/form-builder.git",
+      category: "web"
+    },
+    {
+      id: 6,
+      title: "Animated Car Page",
+      description: "This project is a simple web page featuring an animated car moving along a highway. It's implemented using HTML, CSS, and JavaScript.",
+      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80",
+      tags: ["HTML", "CSS", "JavaScript", "Animation", "Web Development"],
+      code: "https://github.com/Yuvrraaj/Car-Animated.git",
+      category: "web"
+    },
+    
+    {
       id: 7,
-      title: "Blockchain Explorer",
-      description: "A web interface for exploring blockchain data and transactions.",
+      title: "IPO-WebApp",
+      description: "Developed a web application for tracking Initial Public Offerings (IPOs) using React.js and Web3.js, enabling users to view upcoming IPOs, track their performance, and interact with blockchain-based data.",
       image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
-      tags: ["JavaScript", "React", "Blockchain", "Web3.js"],
-      code: "https://github.com/oxBinaryBrain/Software-solution-to-identify-the-end-receiver-of-a-cryptocurrency-transaction",
+      tags: ["React", "Web3.js", "Blockchain", "IPO Tracking", "Web Development", "JavaScript", "Frontend Development"],
+      code: "https://github.com/Yuvrraaj/IPO-WebApp.git",
       category: "blockchain"
     },
     {
       id: 8,
-      title: "Smart Home Dashboard",
-      description: "A dashboard for monitoring and controlling smart home devices.",
+      title: "Blood Group Detection Device",
+      description: "Designed and built a non-invasive Blood Group Detection Device using Raspberry Pi, achieving 95% accuracy in determining blood type by analysing light absorption from a fingertip with laser-based transmission and light sensors, eliminating the need for blood samples.",
       image: "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?auto=format&fit=crop&w=800&q=80",
-      tags: ["C", "IoT", "NArdiuno"],
-      code: "https://github.com/oxBinaryBrain/Ardiuno",
+      tags: ["Raspberry Pi", "IoT", "Electronics", "Python", "Hardware Design", "Blood Group Detection", "Laser Technology", "Light Sensors", "Non-invasive"],
       category: "iot"
     }
   ];

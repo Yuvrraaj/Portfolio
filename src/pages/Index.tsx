@@ -13,38 +13,42 @@ const Index = () => {
 
   const featuredProjects = [
     {
-      title: "Income Tax Fraud Detection",
-      description: "A system to detect fraudulent activities in income tax filings using AI and machine learning.",
+      title: "Interpretable AI for Census-Independent Population Estimation leveraging space technology",
+      description: "Developed a deep learning pipeline to estimate population from satellite imagery by detecting buildings using YOLOv8 and incorporating elevation data (DSM & DTM) to infer floor counts. Achieved over 90% accuracy and built a GUI for real-time input and visualization.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
-      tags: ["Python", "Machine Learning", "AI"],
+      tags: ["Python", "Machine Learning", "AI", "Deep Learning", "Satellite Imagery", "YOLOv8", "GUI", "Population Estimation"],
       link: "/projects",
-      code: "https://github.com/oxBinaryBrain/An_Income_Tax_Fraud_Detection_Using_AI-ML"
+      code: "https://github.com/Yuvrraaj/Population-Estimation"
     },
     {
-      title: "Oral Cancer Classification using Neural Networks",
-      description: "Machine learning model to detect and classify oral cancer levels from images.",
+      title: "OCR-Based Product Info Extractor",
+      description: "Built a standalone executable application that captures product images via webcam and extracts key information like MRP and manufacturing date using OCR and image processing, with 92%+ text recognition accuracy.",
       image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
-      tags: ["Python", "TensorFlow", "Neural Networks"],
+      tags: ["Python", "OCR", "Image Processing", "OpenCV", "GUI", "Standalone Application", "Webcam", "Text Recognition", "Product Information"],
       link: "/projects",
-      code: "https://github.com/oxBinaryBrain/Oral_Cancer_Classification"
+      code: "https://github.com/Yuvrraaj/OCR-Text-Extraction"
     },
     {
-      title: "Credit Card Fraud Detection",
-      description: "Machine learning model to analyze whether a credit card transaction is fraudulent or not.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
-      tags: ["Python", "ML", "Data Science"],
+      title: "Fruit Freshness Detection",
+      description: "Created a real-time webcam-based system that identifies fruits (banana, apple, orange, guava) and estimates freshness as a percentage using machine learning techniques, achieving ~90% classification accuracy.",
+      image: "public/uploads/fruits.jpg",
+      tags: ["Python", "Machine Learning", "Computer Vision", "OpenCV", "Real-time", "Webcam", "Fruit Detection", "Freshness Estimation"],
       link: "/projects",
-      code: "https://github.com/oxBinaryBrain/CC-Fraud-Detection"
+      code: "https://github.com/Yuvrraaj/Freshness_Detection"
     },
   ];
 
   const techStack = [
+    { name: "Java", proficiency: 95 },
     { name: "Python", proficiency: 90 },
-    { name: "JavaScript", proficiency: 85 },
+    { name: "SQL", proficiency: 90 },
+    { name: "Machine Learning", proficiency: 85 },
+    { name: "HTML/CSS", proficiency: 85 },
     { name: "React.js", proficiency: 80 },
-    { name: "Node.js", proficiency: 75 },
+    { name: "PHP", proficiency: 80 },
+    { name: "JavaScript", proficiency: 80 },
     { name: "Firebase", proficiency: 70 },
-    { name: "Next.js", proficiency: 65 },
+    { name: "Node.js", proficiency: 70 },
   ];
 
   return (
@@ -159,7 +163,7 @@ const Index = () => {
             </span>
             <h2 className="text-4xl font-bold mb-6">Tech Stack</h2>
             <p className="max-w-3xl mx-auto text-muted-foreground">
-              A collection of technologies I work with to build web applications and solve complex problems.
+              A collection of technologies I work with to build web applications, models and solve complex problems.
             </p>
           </motion.div>
 

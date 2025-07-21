@@ -12,15 +12,21 @@ const About = () => {
 
   const skills = [
     { name: "Python", level: "Advanced" },
-    { name: "JavaScript", level: "Advanced" },
-    { name: "React.js", level: "Intermediate" },
+    { name: "Java", level: "Advanced" },
+    { name: "SQL", level: "Advanced" },
+    { name: "HTML", level: "Advanced" },
+    { name: "Machine Learning", level: "Intermediate" },
+    { name: "Deep Learning", level: "Intermediate" },
+    { name: "R", level: "Intermediate" },
+    { name: "Django", level: "Intermediate" },
+    { name: "PHP", level: "Intermediate" },
+    { name: "AI", level: "Intermediate" },
+    { name: "React", level: "Intermediate" },
     { name: "Node.js", level: "Intermediate" },
     { name: "Next.js", level: "Intermediate" },
-    { name: "C++", level: "Intermediate" },
-    { name: "Machine Learning", level: "Intermediate" },
+    { name: "JavaScript ", level: "Intermediate" },
     { name: "CSS", level: "Intermediate" },
-    { name: "Blockchain", level: "Beginner" },
-    { name: "AI", level: "Intermediate" },
+    
   ];
 
   return (
@@ -55,9 +61,8 @@ const About = () => {
             >
               <div className="glass-panel h-full p-8 rounded-lg">
                 <div className="relative w-full h-80 rounded-lg mb-8 overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-br from-brand-purple/20 to-blue-500/20"></div>
                   <img 
-                    src="/uploads/me.png" 
+                    src="/uploads/me.jpg" 
                     alt="Profile" 
                     className="w-full h-full object-cover rounded-lg"
                   />
@@ -79,16 +84,16 @@ const About = () => {
                   I'm <motion.span 
                     className="text-brand-purple font-semibold"
                     whileHover={{ color: "#8B5CF6" }}
-                  >Uday G</motion.span>, a Computer Science student specializing in AI & Machine Learning at Presidency University, Bengaluru.
+                  >Yuvraj Jha</motion.span>, a Computer Science student at Vellore Institute Of Technology, Andhra Pradesh.
                 </p>
                 <p>
-                  My journey in programming began with an interest in solving complex problems. This led me to explore various programming languages and technologies, with a focus on web development and artificial intelligence.
+                  My tech journey started with a fascination for how software powers the world. Since then, I've delved into Full-Stack Web Development, Computer Vision, and MAchine Learning.
                 </p>
                 <p>
-                  I'm passionate about building web applications and software that is not only functional but also intuitive and user-friendly. I believe in continuous learning and staying updated with the latest technologies.
+                    I love turning ideas into interactive experiences—whether it's a predictive model or a sleek web interface. I'm driven by clean code, meaningful impact, and a good challenge.
                 </p>
                 <p>
-                  When I'm not coding, I enjoy exploring new technologies, solving algorithmic problems, contributing to open-source projects and playing video games.
+                  Outside of development, you'll find me brainstorming new project ideas, diving into AI papers, solving DSA problems, or enjoying a good game to recharge.
                 </p>
               </div>
             </motion.div>
@@ -149,8 +154,10 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <InfoCard icon={User} title="Personal Interests">
                 <ul className="space-y-2 text-muted-foreground">
-                  {["Exploring new technologies", "Solving algorithmic challenges", 
-                    "Open-source contributions", "Web development projects"].map((interest, i) => (
+                  {["Building impactful AI systems using satellite imagery",
+                    "Contributing to social good through technology",
+                    "Solving algorithmic challenges in Java",
+                    "Following and analyzing cricket with tech",].map((interest, i) => (
                     <motion.li 
                       key={i} 
                       className="flex items-center"
@@ -165,8 +172,10 @@ const About = () => {
 
               <InfoCard icon={Code} title="Coding Philosophy">
                 <ul className="space-y-2 text-muted-foreground">
-                  {["Clean and maintainable code", "Focus on user experience", 
-                    "Continuous learning and improvement", "Building with scalability in mind"].map((philosophy, i) => (
+                  {[  "Write clean, modular, and scalable code",
+                      "Build solutions with real-world impact",
+                      "Keep the user experience intuitive and meaningful",
+                      "Stay curious, always explore new tech stacks",].map((philosophy, i) => (
                     <motion.li 
                       key={i} 
                       className="flex items-center"
@@ -182,7 +191,7 @@ const About = () => {
               <InfoCard icon={GraduationCap} title="Education Journey">
                 <ul className="space-y-2 text-muted-foreground">
                   {["Computer Science fundamentals", "Data structures and algorithms", 
-                    "Machine learning and AI", "Self-taught web development"].map((journey, i) => (
+                    "Machine learning and AI", "Web development"].map((journey, i) => (
                     <motion.li 
                       key={i} 
                       className="flex items-center"
@@ -197,8 +206,10 @@ const About = () => {
 
               <InfoCard icon={BookOpen} title="Future Goals">
                 <ul className="space-y-2 text-muted-foreground">
-                  {["Mastering advanced AI techniques", "Building impactful web applications", 
-                    "Contributing to open-source projects", "Exploring blockchain development"].map((goal, i) => (
+                  {["Advance population analytics using AI & geospatial tech",
+                    "Exploring cloud computing and big data",
+                    "Research AI ethics and interpretable ML models",
+                    "Contribute to open-source in the AI for Social Good space",].map((goal, i) => (
                     <motion.li 
                       key={i} 
                       className="flex items-center"

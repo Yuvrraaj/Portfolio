@@ -121,7 +121,7 @@ const HeroSection = () => {
                   backgroundSize: "200% 200%"
                 }}
               >
-                Uday G
+                Yuvraj Jha
               </motion.span>
             </motion.h1>
             
@@ -143,7 +143,8 @@ const HeroSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
             >
-              Passionate about programming and software development with expertise in Python, JavaScript, and C++.
+              Passionate about programming and software development with expertise in Python, Java and JavaScript.
+              Hands-on experience in building machine learning pipelines for real-world problems
               Building modern web applications using Node.js, React.js, and Next.js. Freelancer specializing in AI-powered solutions.
             </motion.p>
             
@@ -237,8 +238,8 @@ const HeroSection = () => {
                 
                 <SkillCard 
                   icon={Terminal}
-                  title="C++"
-                  description="Systems programming"
+                  title="R"
+                  description="Data Analysis"
                   className="col-span-2 row-span-2"
                 />
                 
@@ -251,8 +252,8 @@ const HeroSection = () => {
                 
                 <SkillCard 
                   icon={Tv}
-                  title="UI/UX Design"
-                  description="Interface design & prototyping"
+                  title="Java"
+                  description="Expert level proficiency"
                   className="col-span-3 row-span-2"
                 />
                 

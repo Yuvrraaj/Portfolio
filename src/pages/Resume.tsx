@@ -30,46 +30,58 @@ const Resume = () => {
 
   const education = [
     {
-      institution: "Presidency University, Bengaluru",
-      degree: "Bachelor of Technology (B.Tech)",
-      field: "Computer Science & Engineering (AI & ML)",
-      duration: "2021 - 2025",
-      gpa: "3.0/4.0",
-      location: "Bengaluru, India",
+      institution: "Vellore Institute of Technology, Andhra Pradesh",
+      degree: "Integrated M.Tech",
+      field: "Computer Science & Engineering",
+      duration: "2022 - 2027",
+      gpa: "9.25/10.0",
+      location: "Vijayawada, India",
     },
     {
-      institution: "MES Kishora Kendra, Bengaluru",
+      institution: "Kendriya Vidyalaya, Alipurduar Junction",
       degree: "Pre-University College",
       field: "Science Stream",
-      duration: "2019 - 2021",
-      gpa: "85%",
-      location: "Bengaluru, India",
+      duration: "2020 - 2022",
+      gpa: "89%",
+      location: "Alipurduar, India",
     },
   ];
 
   const experience = [
     {
-      position: "Freelance Developer",
-      company: "Self-employed",
-      duration: "January 2023 - Present",
-      description: "Working as a freelance developer on various projects, specializing in web development and AI solutions.",
+      position: "Intern",
+      company: "North Eastern Space Applications Centre (NESAC), Department of Space, Govt. of India ",
+      duration: "May 2025 - July 2025",
+      description: "Developed a census-independent population estimation framework leveraging high resolution satellite imagery, interpretable deep learning models (YOLOv8), and spatial AI techniques.",
       responsibilities: [
-        "Developed full-stack web applications for clients using React, Node.js, and MongoDB",
-        "Created AI-powered solutions for data analysis and automation",
-        "Managed project timelines and client communication",
-        "Integrated AI tools into development workflows for improved efficiency"
+         "Spearheaded the development of a census-independent population estimation framework leveraging high resolution satellite imagery, interpretable deep learning models (YOLOv8), and spatial AI techniques.",
+         "Applied advanced geospatial analytics and remote sensing workflows to process imagery and elevation data (DSM/DTM), enabling precise building detection and floor estimation.",
+         "Authored and integrated a novel AI-driven demographic mapping system that has since been adopted by over 12 researchers and analysts across multiple geospatial and urban planning projects.",
+         "Gained hands-on exposure to end-to-end deployment of AI/ML pipelines in a research-grade space technology environment, with practical applications in smart urban development and population intelligence."
       ]
     },
     {
       position: "Web Developer Intern",
-      company: "SkillCraft Technologies",
-      duration: "November 2024 - December 2024",
-      description: "Developed and maintained web applications using React.js and Node.js. Collaborated with senior developers to implement new features and fix bugs.",
+      company: "Bluestock Fintech",
+      duration: "January 2025 - February 2025",
+      description: "Led a team of 9 to develop a production-level IPO web app and REST API using Django, DRF, and PostgreSQL. Built a responsive frontend with HTML, CSS, JavaScript, and Bootstrap 5.",
       responsibilities: [
-        "Developed responsive front-end interfaces using React.js",
-        "Implemented RESTful APIs using Node.js and Express",
-        "Participated in code reviews and team meetings",
-        "Optimized applications for maximum speed and scalability"
+         "Led a 9-member team to develop a production-level IPO web app & REST API using Django, DRF, and PostgreSQL.",
+         "Built a responsive frontend with HTML, CSS, JavaScript, and Bootstrap 5, reducing page load time by 30%.",
+         "Ensured code quality, security, and API performance, using Git/GitHub, Postman, and best practices, improving API response time by 25%.",
+         "Delivered project 5 days ahead of deadline, aligning with business goals and stakeholder requirements."
+      ]
+    },
+    {
+      position: " Data Analytics and Visualization",
+      company: " Accenture North America - Forage Job Simulation ",
+      duration: "June 2024",
+      description: "Completed a job simulation project with Accenture North America, focusing on data analytics and visualization using Python, SQL, and Tableau.",
+      responsibilities: [
+         "Developed interactive dashboards and reports using Tableau to visualize key business metrics.",
+         "Performed data cleaning and preprocessing using Python and SQL to ensure data quality.",
+         "Collaborated with cross-functional teams to gather requirements and deliver insights.",
+         "Presented findings and recommendations to stakeholders for data-driven decision making."
       ]
     },
     {
@@ -88,108 +100,150 @@ const Resume = () => {
 
   const projects = [
     {
-      title: "Income Tax Fraud Detection",
-      description: "Developed an AI-powered system to detect fraudulent activities in income tax filings using machine learning algorithms and data pattern analysis.",
-      technologies: ["Python", "Machine Learning", "AI", "Data Analysis", "TensorFlow"],
-      duration: "03/2023 - 04/2023",
-      type: "Open-source",
+      title: "Interpretable AI for Census-Independent Population Estimation leveraging space technology",
+      description: "Developed a deep learning pipeline to estimate population from satellite imagery by detecting buildings using YOLOv8 and incorporating elevation data (DSM & DTM) to infer floor counts. Achieved over 90% accuracy and built a GUI for real-time input and visualization.",
+      technologies: ["Python", "Machine Learning", "AI", "Deep Learning", "Satellite Imagery", "YOLOv8", "GUI", "Population Estimation"],
+      duration: "05/2025 - 06/2025",
+      type: "Summer Internship",
       accomplishments: [
-        "Created custom algorithms to identify suspicious patterns in tax filings",
-        "Implemented a dashboard to visualize fraud detection metrics",
-        "Achieved 92% accuracy in identifying fraudulent transactions"
+        "Developed a deep learning pipeline to estimate population from satellite imagery",
+        "Implemented YOLOv8 for building detection and incorporated elevation data (DSM & DTM) to infer floor counts",
+        "Achieved over 90% accuracy in population estimation",
+        "Built a GUI for real-time input and visualization of results"
       ]
     },
     {
-      title: "Oral Cancer Detection",
-      description: "Built a deep learning model to detect and classify oral cancer stages from medical images, helping in early diagnosis and treatment planning.",
-      technologies: ["Python", "TensorFlow", "Neural Networks", "Computer Vision", "OpenCV"],
-      duration: "05/2023 - 08/2023",
+      title: "OCR-Based Product Info Extractor",
+      description: "Built a standalone executable application that captures product images via webcam and extracts key information like MRP and manufacturing date using OCR and image processing, with 92%+ text recognition accuracy.",
+      technologies: ["Python", "OCR", "Image Processing", "OpenCV", "GUI", "Standalone Application", "Webcam", "Text Recognition", "Product Information"],
+      duration: "05/2024 - 06/2024",
       type: "2nd Year Project",
       accomplishments: [
-        "Conducted data collection and preprocessing for oral cancer detection",
-        "Designed and implemented a machine learning model for image classification using CNNs",
-        "Achieved 89% accuracy in detecting early-stage oral cancer"
+        "Developed a standalone executable application that captures product images via webcam",
+        "Extracted key information like MRP and manufacturing date using OCR and image processing",
+        "Achieved 92%+ text recognition accuracy with real-time processing",
+        "Designed a user-friendly GUI for easy interaction and data extraction"
       ]
     },
     {
-      title: "Object Tracking using OpenCV",
-      description: "Developed an object detection and tracking system using OpenCV and KCF Tracker that can identify and follow objects in video streams.",
-      technologies: ["Python", "OpenCV", "Computer Vision", "AI"],
-      duration: "03/2023 - 04/2023",
+      title: "Fruit Freshness Detection",
+      description: "Created a real-time webcam-based system that identifies fruits (banana, apple, orange, guava) and estimates freshness as a percentage using machine learning techniques, achieving ~90% classification accuracy.",
+      technologies: ["Python", "Machine Learning", "Computer Vision", "OpenCV", "Real-time", "Webcam", "Fruit Detection", "Freshness Estimation"],
+      duration: "07/2024 - 08/2024",
       type: "Open-source",
       accomplishments: [
-        "Developed an open-source AI project for object detection using encoded data",
-        "Utilized compatible video sources to recognize objects seen through a camera",
-        "Implemented real-time tracking with minimal latency"
+        "Developed a real-time webcam-based system for fruit detection and freshness estimation",
+        "Implemented machine learning techniques to classify fruits with ~90% accuracy",
+        "Estimated freshness as a percentage based on visual features",
+        "Contributed to open-source community by sharing the project on GitHub"
       ]
     },
     {
-      title: "Credit Card Fraud Detection",
-      description: "Created a machine learning model to analyze whether credit card transactions are fraudulent by identifying unusual patterns and anomalies.",
-      technologies: ["Python", "Machine Learning", "Data Science", "Statistical Analysis"],
-      duration: "01/2023 - 03/2023",
+      title: "Drag-and-Drop Form Builder",
+      description: "Developed a dynamic form builder using React, enabling users to create, customize, and share forms effortlessly. Integrated functionality to export form responses as a CSV file for streamlined data management.",
+      technologies: ["React", "JavaScript", "Form Builder", "CSV Export", "Web Development", "Frontend Development", "UI/UX", "Drag and Drop"],
+      duration: "09/2024 - 10/2024",
       type: "Personal Project",
       accomplishments: [
-        "Trained models on large datasets of transaction data",
-        "Implemented feature engineering to improve detection accuracy",
-        "Developed a real-time alert system for suspicious transactions"
+        "Created a user-friendly drag-and-drop form builder interface",
+        "Implemented features for form customization and sharing",
+        "Integrated CSV export functionality for easy data management",
+        "Ensured responsive design for optimal user experience across devices"
       ]
     },
     {
-      title: "Contextualized Topic Modeling",
-      description: "Built a Python package to run contextualized topic modeling with BERT embeddings, enabling more accurate text analysis and categorization.",
-      technologies: ["Python", "NLP", "BERT", "Machine Learning"],
-      duration: "11/2022 - 01/2023",
-      type: "Research Project",
+      title: "IPO-WebApp",
+      description: "Developed a web application for tracking Initial Public Offerings (IPOs) using React.js and Web3.js, enabling users to view upcoming IPOs, track their performance, and interact with blockchain-based data.",
+      technologies: ["React", "Web3.js", "Blockchain", "IPO Tracking", "Web Development", "JavaScript", "Frontend Development"],
+      duration: "11/2024 - 12/2024",
+      type: "Personal Project",
       accomplishments: [
-        "Created a reusable library for topic modeling tasks",
-        "Implemented BERT embeddings for improved contextual understanding",
-        "Published package with documentation for community use"
+        "Built a comprehensive IPO tracking web application using React.js",
+        "Integrated Web3.js for blockchain interactions and data retrieval",
+        "Enabled users to view upcoming IPOs and track their performance",
+        "Implemented responsive design for seamless user experience across devices"
+      ]
+    },
+    {
+      title: "Blood Group Detection Device",
+      description: "Designed and built a non-invasive Blood Group Detection Device using Raspberry Pi, achieving 95% accuracy in determining blood type by analysing light absorption from a fingertip with laser-based transmission and light sensors, eliminating the need for blood samples.",
+      technologies: ["Raspberry Pi", "IoT", "Electronics", "Python", "Hardware Design", "Blood Group Detection", "Laser Technology", "Light Sensors", "Non-invasive"],
+      duration: "10/2023 - 12/2023",
+      type: "Personal Project",
+      accomplishments: [
+        "Built a comprehensive Blood Group Detection Device using Raspberry Pi",
+        "Achieved 95% accuracy in blood type determination",
+        "Eliminated the need for blood samples with non-invasive technology",
+        "Contributed to open-source community by sharing the project on GitHub"
       ]
     },
   ];
 
   const certifications = [
     {
-      name: "API Prototyping Learning Path",
-      issuer: "Postman",
-      date: "December 2024",
-      skills: "API Prototyping, API Testing, API Documentation",
-      credential: "PST-APL-2024"
+      name: "Oracle Cloud Infrastructure Generative AI Professional",
+      issuer: "Oracle",
+      date: "July 2025",
+      skills: "Oracle Cloud Infrastructure, Generative AI, AI Solutions",
+      
     },
     {
-      name: "Career Essentials in Generative AI",
-      issuer: "Microsoft and LinkedIn",
+      name: "Google Cloud Computing Foundations.",
+      issuer: "Google Cloud",
       date: "November 2024",
-      skills: "Generative AI, Prompt Engineering, LLM Applications",
-      credential: "MSLI-GAI-2024"
+      skills: "Google Cloud Platform, Cloud Computing, Infrastructure",
+      
     },
     {
-      name: "Learning Microsoft Power BI",
-      issuer: "Infosys Springboard",
+      name: "Accenture Data Analytics And Visualization Simulation",
+      issuer: "Forage",
       date: "November 2024",
-      skills: "Microsoft Power BI, Data Visualization, Business Intelligence",
-      credential: "ISB-PBI-2024"
+      skills: "Data Analytics, Data Visualization, Python, SQL",
     },
     {
-      name: "Neural Networks and Deep Learning",
-      issuer: "Great Learning",
-      date: "January 2024",
-      skills: "Neural Networks, Deep Learning, AI Architecture",
-      credential: "GL-NNDL-2024"
+      name: "Google Cloud Computing Foundations",
+      issuer: "Google Cloud Skills Boost",
+      date: "January 2025",
+      skills: "Google Cloud Platform, Cloud Computing, Core Services",
     },
     {
-      name: "Real Life Machine Learning and Data Science Projects",
+      name: "Google Cloud Fundamentals: Core Infrastructure",
+      issuer: "Google Cloud Skills Boost",
+      date: "February 2025",
+      skills: "Google Cloud, Core Infrastructure, Compute Engine, Cloud Storage",
+    },
+    {
+      name: "The web developer bootcamp",
       issuer: "Udemy",
-      date: "November 2022",
-      skills: "Machine Learning, Data Science, Practical Implementation",
-      credential: "UC-e1c70903-b810-4b6b-8749-eebd3345715"
+      date: "February 2024",
+      skills: "HTML, CSS, JavaScript, React.js, Node.js",
+    },
+    {
+      name: "JavaScript Essentials 1 (JSE)",
+      issuer: "Cisco Networking Academy",
+      date: "June 2024",
+      skills: "JavaScript, Programming Fundamentals, Web Development",
+    },
+    {
+      name: "Tata Imagination Challenge 2024",
+      issuer: "Tata",
+      date: "July 2024",
+      skills: "Problem Solving, Innovation, Research",
+    },
+    {
+      name: "Flipkart Grid Robotics 2024",
+      issuer: "Flipkart",
+      date: "August 2024",
+      skills: "Robotics, Problem Solving, Team Collaboration, Machine Learning, Python",
     },
   ];
 
   const softSkills = [
     { skill: "Problem Solving", description: "Analytical approach to complex technical challenges" },
     { skill: "Communication", description: "Clear technical and non-technical communication" },
+    { skill: "Leadership", description: "Ability to lead and motivate teams towards common goals" },
+    { skill: "Work ethic", description: "Strong dedication to tasks and responsibilities" },
+    { skill: "Attention to detail", description: "Thoroughness in completing tasks and projects" },
     { skill: "Team Collaboration", description: "Effective work in cross-functional teams" },
     { skill: "Adaptability", description: "Quick learning of new technologies and methodologies" },
     { skill: "Time Management", description: "Efficient project delivery within deadlines" },
@@ -301,7 +355,7 @@ const Resume = () => {
             <div className="mt-4 pl-4 border-l-2 border-brand-purple/30">
               <h4 className="font-medium mb-2">Key Courses:</h4>
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                {edu.institution.includes("Presidency") ? (
+                {edu.institution.includes("Vellore") ? (
                   <>
                     <li className="text-sm flex items-center">
                       <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
@@ -313,11 +367,19 @@ const Resume = () => {
                     </li>
                     <li className="text-sm flex items-center">
                       <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
-                      Computer Vision Systems
+                      Computer Network
+                    </li>
+                    <li className="text-sm flex items-center">
+                      <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
+                      Operating System
                     </li>
                     <li className="text-sm flex items-center">
                       <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
                       Web Development
+                    </li>
+                    <li className="text-sm flex items-center">
+                      <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
+                      Object Oriented Programming
                     </li>
                     <li className="text-sm flex items-center">
                       <span className="h-1.5 w-1.5 bg-brand-purple rounded-full mr-2"></span>
@@ -488,11 +550,6 @@ const Resume = () => {
                     </span>
                   ))}
                 </div>
-                {cert.credential && (
-                  <div className="text-xs text-muted-foreground">
-                    Credential ID: {cert.credential}
-                  </div>
-                )}
               </div>
             </div>
           </motion.div>

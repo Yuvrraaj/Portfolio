@@ -35,6 +35,15 @@ const Projects = () => {
     },
     {
       id: 2,
+      title: "DocuMind AI - Universal Document Intelligence System",
+      description: "A powerful AI-driven desktop application that transforms how professionals analyze and interact with documents across any industry. Built with Python and Google Gemini AI, this versatile system processes multiple document formats and provides instant, intelligent answers to complex queries about any type of content. ",
+      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
+      tags: ["Python", "AI", "Machine Learning", "Document Processing", "Google Gemini AI", "Desktop Application", "Universal Document Intelligence", "Natural Language Processing"],
+      code: "https://github.com/Yuvrraaj/DocuMind-AI---Universal-Document-Intelligence-System/tree/main",
+      category: "ai"
+    },
+    {
+      id: 3,
       title: "OCR-Based Product Info Extractor",
       description: "Built a standalone executable application that captures product images via webcam and extracts key information like MRP and manufacturing date using OCR and image processing, with 92%+ text recognition accuracy.",
       image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
@@ -43,30 +52,21 @@ const Projects = () => {
       category: "ai"
     },
     {
-      id: 3,
+      id: 4,
       title: "Fruit Freshness Detection",
       description: "Created a real-time webcam-based system that identifies fruits (banana, apple, orange, guava) and estimates freshness as a percentage using machine learning techniques, achieving ~90% classification accuracy.",
-      image: "public/uploads/fruits.jpg",
+      image: "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800",
       tags: ["Python", "Machine Learning", "Computer Vision", "OpenCV", "Real-time", "Webcam", "Fruit Detection", "Freshness Estimation"],
       code: "https://github.com/Yuvrraaj/Freshness_Detection",
       category: "ai"
     },
     {
-      id: 4,
+      id: 5,
       title: "Personal Portfolio",
       description: "A responsive personal portfolio website showcasing projects and skills.",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
       tags: ["React", "Node", "HTML","CSS", "JavaScript", "Portfolio", "Web Development", "Frontend Development", "Responsive Design"],
       code: "https://github.com/oxBinaryBrain/Portfolio_V1",
-      category: "web"
-    },
-    {
-      id: 5,
-      title: "Drag-and-Drop Form Builder",
-      description: "Developed a dynamic form builder using React, enabling users to create, customize, and share forms effortlessly. Integrated functionality to export form responses as a CSV file for streamlined data management. ",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
-      tags: ["React", "JavaScript", "Form Builder", "CSV Export", "Web Development", "Frontend Development", "UI/UX", "Drag and Drop"],
-      code: "https://github.com/Yuvrraaj/form-builder.git",
       category: "web"
     },
     {

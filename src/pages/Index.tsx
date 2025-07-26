@@ -31,7 +31,7 @@ const Index = () => {
     {
       title: "Fruit Freshness Detection",
       description: "Created a real-time webcam-based system that identifies fruits (banana, apple, orange, guava) and estimates freshness as a percentage using machine learning techniques, achieving ~90% classification accuracy.",
-      image: "public/uploads/fruits.jpg",
+      image: "https://images.unsplash.com/photo-1619566636858-adf3ef46400b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800",
       tags: ["Python", "Machine Learning", "Computer Vision", "OpenCV", "Real-time", "Webcam", "Fruit Detection", "Freshness Estimation"],
       link: "/projects",
       code: "https://github.com/Yuvrraaj/Freshness_Detection"

@@ -85,7 +85,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-**Created with by Uday**
+**Created by Yuvraj**
 
 **📌 Note**: This portfolio template is open-source. While free to use, attribution is appreciated..
 

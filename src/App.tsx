@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import { ThemeProvider } from "./components/ThemeProvider";
 
-// Pages
+//All Pages
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Academics from "./pages/Academics";
